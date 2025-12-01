@@ -78,24 +78,21 @@
         id="navbar">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <!-- Logo Container -->
-            <div class="flex items-center gap-3">
-                <!-- Placeholder for Logo Image -->
-                <div class="w-12 h-12 relative flex items-center justify-center">
-                    <!-- Ensure logo.png is in the same directory on your server -->
-                    <img src="logo.png" alt="شعار رتق البيانات" class="w-full h-full object-contain"
+            <div class="flex items-center">
+                <!-- Placeholder for Logo Image - Increased size to w-32 h-32 (128px) for much larger visibility -->
+                <div class="w-32 h-32 relative flex items-center justify-center">
+                    <!-- Updated Logo Path -->
+                    <img src="/Users/macdef/Desktop/شركة رتق البيانات/هوية شركة رتق البيانات/html/ratq-landing/logo.png"
+                        alt="شعار رتق البيانات" class="w-full h-full object-contain"
                         onerror="this.style.display='none'; document.getElementById('fallback-logo').style.display='flex';">
 
                     <!-- Fallback Logo (Visual representation of the squares in your logo) -->
-                    <div id="fallback-logo" class="hidden w-10 h-10 grid grid-cols-2 gap-1 rotate-45">
+                    <div id="fallback-logo" class="hidden w-24 h-24 grid grid-cols-2 gap-1 rotate-45">
                         <div class="bg-ratq-orange rounded-sm"></div>
                         <div class="bg-ratq-teal rounded-sm opacity-50"></div>
                         <div class="bg-ratq-orange rounded-sm opacity-80"></div>
                         <div class="bg-ratq-teal rounded-sm"></div>
                     </div>
-                </div>
-                <div>
-                    <h1 class="text-2xl font-bold text-ratq-navy tracking-tight">رتق البيانات</h1>
-                    <span class="text-xs text-ratq-orange font-semibold tracking-widest uppercase">RTQ DATA</span>
                 </div>
             </div>
 
@@ -147,10 +144,16 @@
                     <span class="text-sm text-gray-600 font-medium">الجيل القادم من حلول البيانات</span>
                 </div>
 
-                <h1 class="text-4xl lg:text-6xl font-extrabold text-ratq-navy leading-tight">
-                    نحو ذكاء اصطناعي <br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-ratq-orange to-red-500">مُفصّل على
-                        مقاسك</span>
+                <h1 class="flex flex-col gap-y-4 text-4xl lg:text-6xl font-extrabold text-ratq-navy">
+
+                    <span class="leading-normal py-1">
+                        نحو ذكاء اصطناعي
+                    </span>
+
+                    <span
+                        class="leading-normal py-1 text-transparent bg-clip-text bg-gradient-to-r from-ratq-orange to-red-500">
+                        مُفصّل على مقاسك
+                    </span>
                 </h1>
 
                 <p class="text-lg text-gray-600 leading-relaxed max-w-xl">
@@ -459,7 +462,7 @@
                             </div>
                             <div class="text-right">
                                 <div class="text-xs text-gray-400">اتصل بنا</div>
-                                <div class="font-bold dir-ltr">+966 53 333 3839</div>
+                                <div class="font-bold dir-ltr">3839 333 53 966+</div>
                             </div>
                         </a>
                     </div>
